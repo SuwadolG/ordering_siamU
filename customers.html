@@ -1,0 +1,154 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="app.js"></script>
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <span class="icon">
+                            <i class="fas fa-store"></i>
+                        </span>
+                        <span class="title">Siam Canteen</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="customers.html">
+                        <span class="icon">
+                            <i class="fas fa-user"></i>
+                        </span>
+                        <span class="title">Restaurant</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </span>
+                        <span class="title">Report</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-cog"></i>
+                        </span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+         <!-- ========================= Main ==================== -->
+         <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <i class="fas fa-search"></i>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="img/2.jpg" alt="">
+                </div>
+            </div>
+                <!-- ================ Table ================= -->
+                <div class="details">
+                    <div class="recentOrders">
+                        <div class="cardHeader">
+                            <h2>Restaurant</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                    <div class="addButton">
+                        <button id="addButton" class="btn-add">+</button>
+                    </div>    
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>ID</td>
+                                    <td>Type</td>
+                                    <td>Restaurant</td>
+                                    <td>Name</td>
+                                    <td>Username</td>
+                                    <td>Password</td>
+                                    <td>Status</td>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                            <tr>
+
+                            </tr>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="popup add">
+                        <div class="close-btn">&times;</div>
+                        <form action="">
+                            <h2>Insert Data</h2>
+                            <div class="form-element">
+                                <label for="ID">ID</label>
+                                <input type="text" name="ID">
+                                <label for="Type">Type</label>
+                                <input type="text" name="Type">
+                            </div>
+                            <div class="form-element">
+                                <label for="Restaurant">Restaurant</label>
+                                <input type="text" name="Restaurant">
+                                <label for="ID">Name</label>
+                                <input type="text" name="Name">
+                            </div>
+                            <div class="form-element">
+                                <label for="Username">Username</label>
+                                <input type="text"name="Username">
+                                <label for="Password">Password</label>
+                                <input type="password" name="Password">
+                            </div>
+                            <div class="form-element">
+                                <label for="Status">Status</label>
+                                <input type="password" name="Status">
+                            </div>
+                            <div class="form-element">
+                                <button>Submit</button>
+                            </div>  
+                        </form>
+                    </div>
+    
+
+    <!-- =========== Scripts =========  -->
+    <script src="app.js"></script>
+
+    <!-- ====== icon ======= -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
